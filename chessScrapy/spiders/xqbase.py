@@ -8,7 +8,7 @@ class XqbaseSpider(scrapy.Spider):
     start_urls = ['http://www.xqbase.com/']
 
     def start_requests(self):
-        for i in range(1,2): #12142
+        for i in range(1,12142): #12142
         	url = 'http://www.xqbase.com/xqbase/?gameid=%d' % (i);
         	yield scrapy.Request(url=url, callback=self.parse)
             
