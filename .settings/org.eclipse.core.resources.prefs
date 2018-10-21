@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//chessScrapy/pipelines.py=utf-8
+encoding//chessScrapy/settings.py=utf-8
+encoding//chessScrapy/spiders/matSpider.py=utf-8
+encoding//chessScrapy/spiders/xqbase.py=utf-8

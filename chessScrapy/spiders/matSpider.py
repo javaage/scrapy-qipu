@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-from scrapy.linkextractor import LinkExtractor
+from scrapy.linkextractors import LinkExtractor
 from MatpItem import MatpItem
 
 class MatSpider(scrapy.Spider):
