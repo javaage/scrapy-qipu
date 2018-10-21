@@ -54,7 +54,7 @@ COOKIES_ENABLED = False
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
    # 'chessScrapy.middlewares.ChessscrapyDownloaderMiddleware': 543,
-   'chessScrapy.middlewares.ProxyMiddleware': 543,
+#    'chessScrapy.middlewares.ProxyMiddleware': 544,
 }
 
 # Enable or disable extensions
